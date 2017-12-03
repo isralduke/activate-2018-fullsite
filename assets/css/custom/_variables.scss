@@ -1,0 +1,56 @@
+$spacer: 20px;
+
+// padding 
+.p {
+	&y-1 {
+		padding: $spacer * 1 0;
+	}
+	&y-2 {
+		padding: $spacer * 2 0;
+	}
+	&y-3 {
+		padding: $spacer * 3 0;
+	}
+	&y-4 {
+		padding: $spacer * 4 0;
+	}
+}
+// margin
+.m {
+	&y-1 {
+		padding: $spacer * 1 0;
+	}
+	&y-2 {
+		padding: $spacer * 2 0;
+	}
+	&y-3 {
+		padding: $spacer * 3 0;
+	}
+	&y-4 {
+		padding: $spacer * 4 0;
+	}
+	&t-1 {
+		padding: $spacer * 1 0;
+	}
+	&t-2 {
+		padding: $spacer * 2 0;
+	}
+	&t-3 {
+		padding: $spacer * 3 0;
+	}
+	&t-4 {
+		padding: $spacer * 4 0;
+	}
+	&b-1 {
+		padding: $spacer * 1 0;
+	}
+	&b-2 {
+		padding: $spacer * 2 0;
+	}
+	&b-3 {
+		padding: $spacer * 3 0;
+	}
+	&b-4 {
+		padding: $spacer * 4 0;
+	}
+}
