@@ -3,7 +3,9 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Lynsey Gwin -- Foundner, Designer, Frontend Developer, Whip Cracker -- lynseydesign
+    Quinton Jason Jr. -- Founder, Frontend Developer, Animator, People Checker -- @quintonjasonjr
+    Isral C Duke -- Founder, Designer, Frontend Developer, Rule Keeper -- @isralduke
 
 # THANKS
 
@@ -11,5 +13,5 @@
 
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5
+    CSS3, HTML5, CraftCMS 2, Codekit 3, SublineText 3, Grid, Flexbox, Sorry <= IE11.
     Apache Server Configs, jQuery, Modernizr, Normalize.css
