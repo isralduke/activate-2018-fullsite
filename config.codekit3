@@ -319,6 +319,13 @@
 		"oAP": "\/partials\/_footer.html",
 		"oF": 0
 		},
+	"\/partials\/_hackathon.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/partials\/_hackathon.html",
+		"oF": 0
+		},
 	"\/partials\/_header-nav.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -352,6 +359,20 @@
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/partials\/_sponsors.html",
+		"oF": 0
+		},
+	"\/partials\/_workshops.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/partials\/_workshops.html",
+		"oF": 0
+		},
+	"\/README.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/README.html",
 		"oF": 0
 		},
 	"\/README.md": {
