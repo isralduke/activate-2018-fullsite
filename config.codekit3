@@ -298,6 +298,13 @@
 		"oAP": "\/LICENSE",
 		"oF": 0
 		},
+	"\/partials\/_conference.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/partials\/_conference.html",
+		"oF": 0
+		},
 	"\/partials\/_file-begin.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -359,6 +366,13 @@
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/partials\/_sponsors.html",
+		"oF": 0
+		},
+	"\/partials\/_venue.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/partials\/_venue.html",
 		"oF": 0
 		},
 	"\/partials\/_workshops.kit": {
