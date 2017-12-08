@@ -585,24 +585,6 @@ template {
   color: white;
   padding: 160px 0; }
 
-.article-days {
-  background-color: khaki; }
-
-.article-venue {
-  background-color: darkseagreen; }
-
-.article-workshops {
-  background-color: yellowgreen; }
-
-.article-hackathon {
-  background-color: olive; }
-
-.article-conference {
-  background-color: olivedrab; }
-
-.article-sponsors {
-  background-color: skyblue; }
-
 .article-register {
   background-color: red;
   color: white; }
