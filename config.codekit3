@@ -305,6 +305,13 @@
 		"oAP": "\/partials\/_conference.html",
 		"oF": 0
 		},
+	"\/partials\/_days.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/partials\/_days.html",
+		"oF": 0
+		},
 	"\/partials\/_file-begin.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -347,11 +354,32 @@
 		"oAP": "\/partials\/_hero.html",
 		"oF": 0
 		},
+	"\/partials\/_intro.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/partials\/_intro.html",
+		"oF": 0
+		},
 	"\/partials\/_mailchimp-signup.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/partials\/_mailchimp-signup.html",
+		"oF": 0
+		},
+	"\/partials\/_numbers.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/partials\/_numbers.html",
+		"oF": 0
+		},
+	"\/partials\/_organizers.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/partials\/_organizers.html",
 		"oF": 0
 		},
 	"\/partials\/_register.kit": {
