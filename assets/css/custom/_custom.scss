@@ -8,6 +8,9 @@
 	&-white {
 		color: $white;
 	}
+	&-yellow {
+		color: $yellow;
+	}
 }
 .background {
 	&-navy {
@@ -24,6 +27,9 @@
 	}
 	&-slate {
 		background-color: $slate;
+	}
+	&-red {
+		background-color: $red;
 	}
 }
 

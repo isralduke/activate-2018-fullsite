@@ -14,6 +14,7 @@
   border: $btn-border-width solid transparent;
   @include button-size($btn-padding-y, $btn-padding-x, $font-size-base, $btn-line-height, $btn-border-radius);
   @include transition($btn-transition);
+  border-radius: 0;
 
   // Share hover and focus styles
   @include hover-focus {
@@ -116,6 +117,7 @@ fieldset[disabled] a.btn {
 
 .btn-lg {
   @include button-size($btn-padding-y-lg, $btn-padding-x-lg, $font-size-lg, $btn-line-height-lg, $btn-border-radius-lg);
+  border-radius: 0;
 }
 
 .btn-sm {
@@ -135,6 +137,15 @@ fieldset[disabled] a.btn {
   + .btn-block {
     margin-top: $btn-block-spacing-y;
   }
+}
+
+.btn-ghost {
+  background-color: transparent;
+  border-width: 4px;
+}
+.btn-ghost-white {
+  border-style: solid;
+  border-color: $white;
 }
 
 // Specificity overrides
