@@ -13,5 +13,4 @@
 
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5, CraftCMS 2, Codekit 3, SublineText 3, Grid, Flexbox, Sorry <= IE11.
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    CSS3, HTML5, CraftCMS 3, Codekit 3, SublimeText 3, Grid, Flexbox, Sorry <= IE11, but not really.

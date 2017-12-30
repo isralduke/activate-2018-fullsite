@@ -1,158 +1,35 @@
-.h1, .h2, .h3, .h4, .h5, .h6 {
-	margin: 0;
+.text {
+	&-navy {
+		color: $navy;
+	}
+	&-orange {
+		color: $orange;
+	}
+	&-white {
+		color: $white;
+	}
 }
-.d-block {
-	display: block;
-}
-.d-flex {
-	display: flex;
-}
-.headline {
-	grid-column: 1 / -1;
-}
-.text-center {
-	text-align: center;
-}
-
-
-.container {
-	position: relative;
-	margin-right: auto; 
-	margin-left: auto;
-	min-width: 300px; width: 100%;
-	@media screen and (min-width: 480px) {
-		max-width: 460px;
+.background {
+	&-navy {
+		background-color: $navy;
 	}
-	@media screen and (min-width: 768px) {
-		max-width: 720px;
+	&-teal {
+		background-color: $teal;
 	}
-	@media screen and (min-width: 1024px) {
-		max-width: 960px;
+	&-orange {
+		background-color: $orange;
 	}
-	@media screen and (min-width: 1200px) {
-		max-width: 1140px;
+	&-white {
+		background-color: $white;
 	}
-	
-	
-}
-
-// grid
-.d-grid {
-	display: grid;
-	grid-gap: $spacer;
-
-	&-2-col {
-		@media screen and (min-width: 768px) {
-			grid-template-columns: repeat(2, 1fr);
-		}
-	}
-	&-3-col {
-		@media screen and (min-width: 768px) {
-			grid-template-columns: repeat(3, 1fr);
-		}
-	}
-	&-unit-1 {
-		@media screen and (min-width: 768px) {
-			grid-column: 1 / 2;
-		}
-	}
-	&-unit-2 {
-		@media screen and (min-width: 768px) {
-			grid-column: 2 / 3;
-		}
-	}
-	&-unit-3 {
-		@media screen and (min-width: 768px) {
-			grid-column: 3 / 4;
-		}
+	&-slate {
+		background-color: $slate;
 	}
 }
 
-.order {
-	&-1 {
-		order: 1;
-	}
-	&-2 {
-		order: 2;
-	}
-	&-3 {
-		order: 3;
-	}
-	&-4 {
-		order: 4;
-	}
+.right {
+	right: 0;
 }
-.grid-units-img {
-	grid-template-columns: 1fr 1fr;
-	@media screen and (min-width: 480px) {
-		grid-template-columns: repeat(4, 1fr);
-	}
-	@media screen and (min-width: 768px) {
-		grid-template-columns: repeat(5, 1fr);
-	}
-	@media screen and (min-width: 1024px) {
-		grid-template-columns: repeat(6, 1fr);
-	}
-	@media screen and (min-width: 1200px) {
-		grid-template-columns: repeat(8, 1fr);
-	}
-}
-
-
-
-.sponsor-logo-link {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-.sponsor-logo {
-	width: 76%;
-	position: relative;
-	margin: 0 auto;
-}
-.card {
-	padding: $spacer;
-	background: gray;
-}
-
-.article {
-	
-	&-intro {
-		background-color: black; color: white;
-		padding: $spacer * 8 0;
-	}
-	&-about {
-
-	}
-	&-days {
-		
-	}
-	&-venue {
-		
-	}
-	&-workshops {
-		
-	}
-	&-hackathon {
-		
-	}
-	&-conference {
-		
-	}
-	&-sponsors {
-		
-	}
-	&-register {
-		background-color: red; color: white;
-	}
-}
-.section {
-
-}
-.btn {
-	@extend .text-center;
-	background-color: red; color: white;
-	&-block {
-		display: block;
-	}
+.bottom {
+	bottom: 0;
 }
