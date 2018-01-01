@@ -39,3 +39,36 @@
 .bottom {
 	bottom: 0;
 }
+.arrow-link {
+	width: 64px; height: 64px;
+	border-radius: 50%;
+	border: 2px solid $orange;
+	background-color: fade-out($orange, 1);
+	transition: background-color .25s ease-out;
+	text-decoration: none;
+	font-size: 32px;
+	@include media-breakpoint-up(sm) {
+		width: 96px; height: 96px;
+	}
+	&:hover, &:active {
+		background-color: fade-out($orange, 0);
+		text-decoration: none;
+	}
+}
+.masthead {
+	background-size: cover;
+	background-repeat: no-repeat;
+	&-home {
+		background-position: right bottom;
+		@include media-breakpoint-up(sm){
+			background-size: contain;
+		}
+	}
+	&-internal {
+		background-position: right bottom;
+		@include media-breakpoint-up(sm){
+			background-position: right top;
+			background-size: contain;
+		}
+	}
+}

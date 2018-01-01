@@ -14,15 +14,7 @@
   background-color: $input-bg;
   background-clip: padding-box;
   border: $input-border-width solid $input-border-color;
-
-  // Note: This has no effect on <select>s in some browsers, due to the limited stylability of `<select>`s in CSS.
-  @if $enable-rounded {
-    // Manually use the if/else instead of the mixin to account for iOS override
-    border-radius: $input-border-radius;
-  } @else {
-    // Otherwise undo the iOS default
-    border-radius: 0;
-  }
+  border-radius: 0;
 
   @include box-shadow($input-box-shadow);
   @include transition($input-transition);
@@ -168,6 +160,7 @@ select.form-control-lg {
 }
 
 
+
 // Form groups
 //
 // Designed to help with the organization and spacing of vertical forms. For
@@ -175,6 +168,14 @@ select.form-control-lg {
 
 .form-group {
   margin-bottom: $form-group-margin-bottom;
+}
+.form-group-inline {
+  display: flex;
+  width: 100%;
+}
+.form-control-inline {
+  display: inline-block;
+  width: calc(100% - 41px);
 }
 
 .form-text {

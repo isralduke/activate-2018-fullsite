@@ -9,43 +9,50 @@
 	<link rel="stylesheet" href="/assets/css/styles.css" />
 </head>
 <body>
-<main class="main" id="main">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-	<a class="navbar-brand text-hide" href="#">Activate Conference</a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
-	</button>
+	<div class="container">
+		<a class="navbar-brand" href="index.html">
+			<h1 class="text-hide">Activate Conference
+				<img src="/assets/images/logos/activate-conf-logo.svg" alt="Activate Conference" class="logo-brand">
+			</h1>
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="fa-fa-bars"></span> Menu</button>
 
-	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-		<ul class="navbar-nav ml-auto">
-			<li class="nav-item active">
-				<a class="nav-link" href="#">home <span class="sr-only">(current)</span></a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">speakers</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">workshops</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">hackathon</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">register</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">fb</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">ig</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">tw</a>
-			</li>
-		</ul>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="internal.html">home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="internal.html">speakers</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="internal.html">workshops</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="internal.html">hackathon</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="internal.html">register</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link nav-link-social" href="#">fb</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link nav-link-social" href="#">ig</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link nav-link-social" href="#">tw</a>
+				</li>
+			</ul>
+		</div>
 	</div>
-</nav>
-<section class="section masthead background-white py-5">
+		
+</nav>	
+<main class="main" id="main">
+
+<section class="section masthead masthead-internal background-white py-5" style="background-image: url('/assets/images/photos/activate-founder-st-joseph-student.jpg');">
 	<div class="container">
 		<div class="col-12 col-md-6">
 			<h2 class="h2 text-navy mb-5"><small class="text-teal text-upper">day 1</small><br />workshops</h2>
@@ -196,8 +203,8 @@
 				</div>
 				<div class="col-11 col-md-5">
 					<form action="" class="form form-inline" id="mailing">
-						<div class="form-group">
-							<input type="email" class="form-control" id="mailingEmail" aria-describedby="emailHelp" placeholder="Your email">
+						<div class="form-group form-group-inline">
+							<input type="email" class="form-control form-control-inline" id="mailingEmail" aria-describedby="emailHelp" placeholder="Your email">
 							<button type="submit" class="btn btn-primary">&rarr;</button>
 						</div>
 					</form>
@@ -216,6 +223,9 @@
 		</div>
 	</div>
 </footer>
+<script src="/assets/js/vendor/jquery-3.2.1.min.js"></script>
+<script src="/assets/js/vendor/popper.min.js"></script>
+<script src="/assets/js/vendor/bootstrap.min.js"></script>
 <script src="/assets/js/main-min.js"></script>
 <script>
 	window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;

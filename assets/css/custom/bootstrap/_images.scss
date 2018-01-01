@@ -61,3 +61,24 @@
 .img-bio {
   
 }
+.logo-brand {
+  width: 180px;
+  @include media-breakpoint-up(sm){
+    width: 260px;
+  }
+}
+.background-img {
+  &-repeat-no {
+    
+  }
+  &-right-bottom {
+    background-position: right bottom;
+  }
+  &-right-top {
+    
+  }
+  &-size-cover {
+    background-size: cover;
+  }
+  
+}

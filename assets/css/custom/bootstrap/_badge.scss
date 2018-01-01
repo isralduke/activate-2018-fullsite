@@ -4,15 +4,22 @@
 // `background-color`.
 
 .badge {
-  display: inline-block;
-  padding: $badge-padding-y $badge-padding-x;
-  font-size: $badge-font-size;
+  display: flex;
+  justify-content: center;
+  padding: 0; margin-right: $spacer*.75;
+  font-size: $spacer * 2;
   font-weight: $badge-font-weight;
-  line-height: 1;
+  line-height: unset;
   text-align: center;
   white-space: nowrap;
-  vertical-align: baseline;
+  
   @include border-radius($badge-border-radius);
+  width: $spacer * 3; height: $spacer * 3;
+
+  @include media-breakpoint-up(sm) {
+    font-size: $spacer * 3;
+    width: $spacer * 4; height: $spacer * 4;
+  }
 
   // Empty badges collapse automatically
   &:empty {
@@ -44,4 +51,9 @@
   .badge-#{$color} {
     @include badge-variant($value);
   }
+}
+.badge-orange {
+  background-color: $orange;
+  border-radius: 50%;
+
 }
