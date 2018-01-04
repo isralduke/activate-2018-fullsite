@@ -75,6 +75,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/css\/custom\/_squiggilations.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/css\/custom\/_squiggilations.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/css\/custom\/bootstrap\/_alert.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -3296,6 +3309,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/images\/people\/sample.jpg": {
+		"ft": 16384,
+		"iS": 50013,
+		"oA": 0,
+		"oAP": "\/assets\/images\/people\/sample.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/images\/photos\/activate-attendee.jpg": {
 		"ft": 16384,
 		"iS": 89628,
@@ -3330,6 +3353,23 @@
 		"oAP": "\/assets\/images\/photos\/activate-founder-st-joseph-student.psd",
 		"oF": 0
 		},
+	"\/assets\/images\/photos\/blue-blur.jpg": {
+		"ft": 16384,
+		"iS": 30758,
+		"oA": 0,
+		"oAP": "\/assets\/images\/photos\/blue-blur.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/photos\/blue-blur.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/images\/photos\/blue-blur.psd",
+		"oF": 0
+		},
 	"\/assets\/images\/photos\/header.jpg": {
 		"ft": 16384,
 		"iS": 219082,
@@ -3339,6 +3379,40 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/assets\/images\/photos\/red-blur-2.jpg": {
+		"ft": 16384,
+		"iS": 62124,
+		"oA": 0,
+		"oAP": "\/assets\/images\/photos\/red-blur-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/photos\/red-blur-2.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/images\/photos\/red-blur-2.psd",
+		"oF": 0
+		},
+	"\/assets\/images\/photos\/red-blur.jpg": {
+		"ft": 16384,
+		"iS": 62044,
+		"oA": 0,
+		"oAP": "\/assets\/images\/photos\/red-blur.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/photos\/red-blur.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/images\/photos\/red-blur.psd",
+		"oF": 0
 		},
 	"\/assets\/images\/squiggilations\/blast.svg": {
 		"ft": 2097152,
@@ -3668,6 +3742,24 @@
 		"oA": 0,
 		"oAP": "\/LICENSE",
 		"oF": 0
+		},
+	"\/lynz-quinton-readme.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/lynz-quinton-readme.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/partials\/_banner.kit": {
 		"cB": 0,

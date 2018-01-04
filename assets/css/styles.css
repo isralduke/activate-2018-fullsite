@@ -9676,7 +9676,8 @@ mark,
   color: #868e96; }
 
 .img-bio-wrapper {
-  border-radius: 100px;
+  border-radius: 50%;
+  overflow: hidden;
   background-color: #CCDBE5;
   width: 128px;
   height: 128px; }
@@ -9699,11 +9700,17 @@ mark,
     .logo-brand {
       width: 260px; } }
 
+.background-img-repeat-no {
+  background-repeat: no-repeat; }
+
 .background-img-right-bottom {
   background-position: right bottom; }
 
 .background-img-size-cover {
   background-size: cover; }
+
+.background-img-center-center {
+  background-position: center center; }
 
 code,
 kbd,
@@ -16289,4 +16296,222 @@ a.text-dark:focus, a.text-dark:hover {
       height: 128px;
       bottom: -40px;
       right: 0px; } }
+
+.white-plusses {
+  width: 200px;
+  height: 312px;
+  position: absolute;
+  top: 40px;
+  left: -168px;
+  background-color: transparent;
+  background-repeat: repeat;
+  background-image: url("../images/squiggilations/white-plusses.svg");
+  z-index: 10; }
+  @media screen and (min-width: 1024px) {
+    .white-plusses {
+      top: 60px;
+      left: -83px; } }
+
+.orange-plusses {
+  width: 200px;
+  height: 312px;
+  position: absolute;
+  top: 40px;
+  right: -168px;
+  background-color: transparent;
+  background-repeat: repeat;
+  background-image: url("../images/squiggilations/orange-plusses.svg");
+  z-index: 10; }
+  @media screen and (min-width: 768px) {
+    .orange-plusses {
+      top: 350px; } }
+  @media screen and (min-width: 1024px) {
+    .orange-plusses {
+      top: 400px;
+      right: -100px; } }
+  @media screen and (min-width: 1280px) {
+    .orange-plusses {
+      right: -100px; } }
+
+.orange-arrow {
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 200px;
+  top: 228px;
+  width: 166px;
+  height: 86px;
+  background-image: url("../images/squiggilations/orange-arrow.svg");
+  z-index: 10; }
+  @media screen and (min-width: 499px) {
+    .orange-arrow {
+      left: 40px;
+      top: 70px; } }
+  @media screen and (min-width: 1024px) {
+    .orange-arrow {
+      left: 40px;
+      top: 220px; } }
+
+.laptop {
+  position: absolute;
+  bottom: 20px;
+  left: 100%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 175px;
+  height: 124px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../images/squiggilations/laptop.svg");
+  z-index: 10; }
+  @media screen and (min-width: 1024px) {
+    .laptop {
+      top: 400px;
+      left: 280px; } }
+  @media screen and (min-width: 1280px) {
+    .laptop {
+      left: 250px; } }
+
+.watch {
+  background-image: url("../images/squiggilations/watch.svg");
+  width: 59px;
+  height: 93px;
+  position: absolute;
+  top: 200px;
+  left: 80px;
+  z-index: 10; }
+  @media screen and (min-width: 375px) {
+    .watch {
+      top: 240px;
+      left: 60px; } }
+  @media screen and (min-width: 768px) {
+    .watch {
+      top: 480px;
+      left: 660px; } }
+  @media screen and (min-width: 1024px) {
+    .watch {
+      top: 500px;
+      left: 760px; } }
+  @media screen and (min-width: 1280px) {
+    .watch {
+      top: 550px;
+      left: 1050px; } }
+
+.cube-stripes {
+  position: absolute;
+  width: 228px;
+  height: 175px;
+  z-index: 10;
+  background-image: url("../images/squiggilations/cube-stripes.svg");
+  display: none; }
+  @media screen and (min-width: 768px) {
+    .cube-stripes {
+      display: block;
+      top: 150px;
+      right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .cube-stripes {
+      top: 350px; } }
+
+.roller-drops {
+  position: absolute;
+  width: 188px;
+  height: 178px;
+  top: -20px;
+  right: 20px;
+  z-index: 10;
+  background-image: url("../images/squiggilations/roller-drops.svg");
+  display: none; }
+  @media screen and (min-width: 768px) {
+    .roller-drops {
+      display: block; } }
+  @media screen and (min-width: 1280px) {
+    .roller-drops {
+      top: 380px;
+      left: -80px; } }
+
+.glasses {
+  position: absolute;
+  width: 134px;
+  height: 63px;
+  bottom: 50px;
+  left: 20px;
+  z-index: 10;
+  background-image: url("../images/squiggilations/glasses.svg"); }
+  @media screen and (min-width: 768px) {
+    .glasses {
+      top: 60px;
+      left: 320px;
+      display: block; } }
+  @media screen and (min-width: 1024px) {
+    .glasses {
+      top: 60px;
+      right: 120px; } }
+  @media screen and (min-width: 1280px) {
+    .glasses {
+      top: 120px;
+      right: 110px; } }
+
+.blast {
+  display: none;
+  position: absolute;
+  width: 231px;
+  height: 484px;
+  top: 380px;
+  left: 0;
+  z-index: 1;
+  background-image: url("../images/squiggilations/blast.svg"); }
+  @media screen and (min-width: 768px) {
+    .blast {
+      display: block;
+      top: -200px;
+      left: 0; } }
+  @media screen and (min-width: 1024px) {
+    .blast {
+      top: 350px;
+      left: -40px; } }
+  @media screen and (min-width: 1280px) {
+    .blast {
+      top: 380px;
+      left: -80px; } }
+
+.phone-circles {
+  display: none;
+  position: absolute;
+  width: 314px;
+  height: 300px;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background-image: url("../images/squiggilations/phone-circles.svg");
+  background-repeat: no-repeat; }
+  @media screen and (min-width: 768px) {
+    .phone-circles {
+      display: block;
+      bottom: 10px;
+      left: -50px; } }
+  @media screen and (min-width: 1024px) {
+    .phone-circles {
+      bottom: 85px;
+      left: 0; } }
+
+.sqiggles-blue {
+  width: 150px;
+  height: 484px;
+  position: absolute;
+  display: none;
+  z-index: 1;
+  background-image: url("../images/squiggilations/sqiggles-blue.svg");
+  background-repeat: no-repeat; }
+  @media screen and (min-width: 768px) {
+    .sqiggles-blue {
+      display: block;
+      bottom: 0;
+      right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .sqiggles-blue {
+      bottom: 40px;
+      right: 100px;
+      -webkit-transform: rotate(15deg);
+              transform: rotate(15deg); } }
 /*# sourceMappingURL=styles.css.map */

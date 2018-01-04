@@ -43,7 +43,8 @@
 .img-bio-wrapper {
   // this is a parent block thing which holds a bio image
   
-  border-radius: 100px;
+  border-radius: 50%;
+  overflow: hidden;
   background-color: $slate;
   @include media-breakpoint-up(xs){
     width: 128px; height: 128px;
@@ -69,7 +70,7 @@
 }
 .background-img {
   &-repeat-no {
-    
+    background-repeat: no-repeat;
   }
   &-right-bottom {
     background-position: right bottom;
@@ -80,5 +81,7 @@
   &-size-cover {
     background-size: cover;
   }
-  
+  &-center-center {
+    background-position: center center;
+  }
 }

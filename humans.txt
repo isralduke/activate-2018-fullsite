@@ -13,4 +13,8 @@
 
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5, CraftCMS 3, Codekit 3, SublimeText 3, Grid, Flexbox, Sorry <= IE11, but not really.
+    CSS3, HTML5, CraftCMS 3, Codekit 3, SublimeText 3, Grid, Flexbox, Bootstrap 4
+
+# NO APOLOGIES
+
+Sorry <= IE11, but not really.
