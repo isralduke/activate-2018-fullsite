@@ -40,19 +40,36 @@
 	bottom: 0;
 }
 .arrow-link {
-	width: 64px; height: 64px;
+	width: 32px; height: 32px;
 	border-radius: 50%;
 	border: 2px solid $orange;
 	background-color: fade-out($orange, 1);
 	transition: background-color .25s ease-out;
 	text-decoration: none;
-	font-size: 32px;
+	font-size: 24px;
 	@include media-breakpoint-up(sm) {
-		width: 96px; height: 96px;
+		width: 64px; height: 64px;
+		font-size: 32px;
 	}
 	&:hover, &:active {
 		background-color: fade-out($orange, 0);
 		text-decoration: none;
+	}
+}
+.header {
+	background-color: $teal;
+	background-image: url('../images/photos/header.jpg');
+	background-size: cover;
+	background-blend-mode: multiply;
+	padding: $spacer*3 0 $spacer*6;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+	-moz-clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+	-ms-clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+	-o-clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+	position: relative;
+	@media screen and (min-width: 768px){
+		padding: $spacer*8 0 $spacer*10;
 	}
 }
 .masthead {
@@ -70,5 +87,31 @@
 			background-position: right top;
 			background-size: contain;
 		}
+	}
+}.badge-year {
+	@extend .background-orange;
+	@extend .text-navy;
+	@extend .position-absolute;
+	font-size: $spacer*1.5;
+	line-height: .875;
+	width: 64px; height: 64px;
+	border-radius: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	bottom: -32px; right: 10px;
+	z-index: 10;
+	@media screen and (min-width: 375px){
+		bottom: -20px; right: 10px;
+	}
+	@media screen and (min-width: 768px){
+		font-size: $spacer*2;
+		width: 96px; height: 96px;
+	}
+	@media screen and (min-width: 1024px){
+		font-size: $spacer*2.5;
+		width: 128px; height: 128px;
+		bottom: -40px; right: 0px;
 	}
 }

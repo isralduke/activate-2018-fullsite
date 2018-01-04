@@ -18,6 +18,18 @@ html {
   -webkit-box-sizing: inherit;
           box-sizing: inherit; }
 
+@font-face {
+  font-family: 'pantonregular';
+  src: url("../fonts/panton/panton-regular-webfont.woff2") format("woff2"), url("../fonts/panton/panton-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'pantonbold';
+  src: url("../fonts/panton/panton-bold-webfont.woff2") format("woff2"), url("../fonts/panton/panton-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
 .container {
   width: 100%;
   padding-right: 15px;

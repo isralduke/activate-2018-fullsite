@@ -7,8 +7,8 @@
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("../fonts/fontawesome-webfont.eot?v=4.7.0");
-  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
+  src: url("/assets/fonts/fontawesome/fonts/fontawesome-webfont.eot?v=4.7.0");
+  src: url("/assets/fonts/fontawesome/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("/assets/fonts/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("/assets/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("/assets/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("/assets/fonts/fontawesome/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -7973,7 +7973,7 @@ button.bg-dark:hover {
 .position-relative {
   position: relative !important; }
 
-.position-absolute {
+.position-absolute, .badge-year {
   position: absolute !important; }
 
 .position-fixed {
@@ -9229,6 +9229,18 @@ a.text-dark:focus, a.text-dark:hover {
  * Copyright 2011-2017 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@font-face {
+  font-family: 'pantonregular';
+  src: url("../fonts/panton/panton-regular-webfont.woff2") format("woff2"), url("../fonts/panton/panton-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'pantonbold';
+  src: url("../fonts/panton/panton-bold-webfont.woff2") format("woff2"), url("../fonts/panton/panton-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9256,7 +9268,7 @@ a.text-dark:focus, a.text-dark:hover {
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-sans-serif: "pantonregular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 *,
@@ -9281,7 +9293,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "pantonregular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -9540,7 +9552,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: inherit;
+  font-family: 'pantonbold';
   font-weight: 500;
   line-height: 1.2;
   color: inherit; }
@@ -13579,7 +13591,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "pantonregular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -13664,7 +13676,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "pantonregular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -14905,7 +14917,7 @@ button.bg-dark:hover {
 .position-relative {
   position: relative !important; }
 
-.position-absolute {
+.position-absolute, .badge-year {
   position: absolute !important; }
 
 .position-fixed {
@@ -16155,7 +16167,7 @@ a.text-dark:focus, a.text-dark:hover {
   .table-bordered td {
     border: 1px solid #ddd !important; } }
 
-.text-navy {
+.text-navy, .badge-year {
   color: #0A3D5E; }
 
 .text-orange {
@@ -16173,7 +16185,7 @@ a.text-dark:focus, a.text-dark:hover {
 .background-teal {
   background-color: #00AEB4; }
 
-.background-orange {
+.background-orange, .badge-year {
   background-color: #F37620; }
 
 .background-white {
@@ -16192,22 +16204,39 @@ a.text-dark:focus, a.text-dark:hover {
   bottom: 0; }
 
 .arrow-link {
-  width: 64px;
-  height: 64px;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
   border: 2px solid #F37620;
   background-color: rgba(243, 118, 32, 0);
   -webkit-transition: background-color .25s ease-out;
   transition: background-color .25s ease-out;
   text-decoration: none;
-  font-size: 32px; }
+  font-size: 24px; }
   @media (min-width: 576px) {
     .arrow-link {
-      width: 96px;
-      height: 96px; } }
+      width: 64px;
+      height: 64px;
+      font-size: 32px; } }
   .arrow-link:hover, .arrow-link:active {
     background-color: #f37620;
     text-decoration: none; }
+
+.header {
+  background-color: #00AEB4;
+  background-image: url("../images/photos/header.jpg");
+  background-size: cover;
+  background-blend-mode: multiply;
+  padding: 3rem 0 6rem;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+  -moz-clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+  -ms-clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+  -o-clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+  position: relative; }
+  @media screen and (min-width: 768px) {
+    .header {
+      padding: 8rem 0 10rem; } }
 
 .masthead {
   background-size: cover;
@@ -16223,4 +16252,41 @@ a.text-dark:focus, a.text-dark:hover {
       .masthead-internal {
         background-position: right top;
         background-size: contain; } }
+
+.badge-year {
+  font-size: 1.5rem;
+  line-height: .875;
+  width: 64px;
+  height: 64px;
+  border-radius: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  bottom: -32px;
+  right: 10px;
+  z-index: 10; }
+  @media screen and (min-width: 375px) {
+    .badge-year {
+      bottom: -20px;
+      right: 10px; } }
+  @media screen and (min-width: 768px) {
+    .badge-year {
+      font-size: 2rem;
+      width: 96px;
+      height: 96px; } }
+  @media screen and (min-width: 1024px) {
+    .badge-year {
+      font-size: 2.5rem;
+      width: 128px;
+      height: 128px;
+      bottom: -40px;
+      right: 0px; } }
 /*# sourceMappingURL=styles.css.map */

@@ -5,6 +5,18 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
  */
+@font-face {
+  font-family: 'pantonregular';
+  src: url("../fonts/panton/panton-regular-webfont.woff2") format("woff2"), url("../fonts/panton/panton-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'pantonbold';
+  src: url("../fonts/panton/panton-bold-webfont.woff2") format("woff2"), url("../fonts/panton/panton-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
 *,
 *::before,
 *::after {
@@ -27,7 +39,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "pantonregular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;

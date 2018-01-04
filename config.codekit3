@@ -2297,34 +2297,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/css\/font-awesome.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/css\/font-awesome-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/css\/font-awesome.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/css\/font-awesome.min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/font-awesome.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/font-awesome.css.map",
-		"oF": 0
-		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/font-awesome.scss": {
+	"\/assets\/fonts\/fontawesome\/_font-awesome.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -2332,64 +2305,84 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/font-awesome.css",
+		"oAP": "\/assets\/fonts\/fontawesome\/_font-awesome.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/fonts\/fontawesome-webfont.eot": {
+	"\/assets\/fonts\/fontawesome\/css\/font-awesome.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/fontawesome\/css\/font-awesome-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/fonts\/fontawesome\/css\/font-awesome.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/fontawesome\/css\/font-awesome.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/fonts\/fontawesome\/fonts\/fontawesome-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/fonts\/fontawesome-webfont.eot",
+		"oAP": "\/assets\/fonts\/fontawesome\/fonts\/fontawesome-webfont.eot",
 		"oF": 0
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/fonts\/fontawesome-webfont.svg": {
+	"\/assets\/fonts\/fontawesome\/fonts\/fontawesome-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/fonts\/fontawesome-webfont.svg",
+		"oAP": "\/assets\/fonts\/fontawesome\/fonts\/fontawesome-webfont.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/fonts\/fontawesome-webfont.ttf": {
+	"\/assets\/fonts\/fontawesome\/fonts\/fontawesome-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/fonts\/fontawesome-webfont.ttf",
+		"oAP": "\/assets\/fonts\/fontawesome\/fonts\/fontawesome-webfont.ttf",
 		"oF": 0
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/fonts\/fontawesome-webfont.woff": {
+	"\/assets\/fonts\/fontawesome\/fonts\/fontawesome-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/fonts\/fontawesome-webfont.woff",
+		"oAP": "\/assets\/fonts\/fontawesome\/fonts\/fontawesome-webfont.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/fonts\/fontawesome-webfont.woff2": {
+	"\/assets\/fonts\/fontawesome\/fonts\/fontawesome-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/fonts\/fontawesome-webfont.woff2",
+		"oAP": "\/assets\/fonts\/fontawesome\/fonts\/fontawesome-webfont.woff2",
 		"oF": 0
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/fonts\/FontAwesome.otf": {
+	"\/assets\/fonts\/fontawesome\/fonts\/FontAwesome.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/fonts\/FontAwesome.otf",
+		"oAP": "\/assets\/fonts\/fontawesome\/fonts\/FontAwesome.otf",
 		"oF": 0
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/HELP-US-OUT.txt": {
+	"\/assets\/fonts\/fontawesome\/HELP-US-OUT.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/HELP-US-OUT.txt",
+		"oAP": "\/assets\/fonts\/fontawesome\/HELP-US-OUT.txt",
 		"oF": 0
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/less\/animated.less": {
+	"\/assets\/fonts\/fontawesome\/less\/animated.less": {
 		"aP": 0,
 		"bl": 0,
 		"dJ": 0,
@@ -2398,7 +2391,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/less\/animated.css",
+		"oAP": "\/assets\/fonts\/fontawesome\/less\/animated.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -2406,7 +2399,7 @@
 		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/less\/bordered-pulled.less": {
+	"\/assets\/fonts\/fontawesome\/less\/bordered-pulled.less": {
 		"aP": 0,
 		"bl": 0,
 		"dJ": 0,
@@ -2415,7 +2408,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/less\/bordered-pulled.css",
+		"oAP": "\/assets\/fonts\/fontawesome\/less\/bordered-pulled.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -2423,7 +2416,7 @@
 		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/less\/core.less": {
+	"\/assets\/fonts\/fontawesome\/less\/core.less": {
 		"aP": 0,
 		"bl": 0,
 		"dJ": 0,
@@ -2432,7 +2425,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/less\/core.css",
+		"oAP": "\/assets\/fonts\/fontawesome\/less\/core.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -2440,7 +2433,7 @@
 		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/less\/fixed-width.less": {
+	"\/assets\/fonts\/fontawesome\/less\/fixed-width.less": {
 		"aP": 0,
 		"bl": 0,
 		"dJ": 0,
@@ -2449,7 +2442,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/less\/fixed-width.css",
+		"oAP": "\/assets\/fonts\/fontawesome\/less\/fixed-width.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -2457,7 +2450,7 @@
 		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/less\/font-awesome.less": {
+	"\/assets\/fonts\/fontawesome\/less\/font-awesome.less": {
 		"aP": 0,
 		"bl": 0,
 		"dJ": 0,
@@ -2466,7 +2459,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/less\/font-awesome.css",
+		"oAP": "\/assets\/fonts\/fontawesome\/less\/font-awesome.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -2474,7 +2467,7 @@
 		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/less\/icons.less": {
+	"\/assets\/fonts\/fontawesome\/less\/icons.less": {
 		"aP": 0,
 		"bl": 0,
 		"dJ": 0,
@@ -2483,7 +2476,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/less\/icons.css",
+		"oAP": "\/assets\/fonts\/fontawesome\/less\/icons.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -2491,7 +2484,7 @@
 		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/less\/larger.less": {
+	"\/assets\/fonts\/fontawesome\/less\/larger.less": {
 		"aP": 0,
 		"bl": 0,
 		"dJ": 0,
@@ -2500,7 +2493,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/less\/larger.css",
+		"oAP": "\/assets\/fonts\/fontawesome\/less\/larger.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -2508,7 +2501,7 @@
 		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/less\/list.less": {
+	"\/assets\/fonts\/fontawesome\/less\/list.less": {
 		"aP": 0,
 		"bl": 0,
 		"dJ": 0,
@@ -2517,7 +2510,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/less\/list.css",
+		"oAP": "\/assets\/fonts\/fontawesome\/less\/list.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -2525,7 +2518,7 @@
 		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/less\/mixins.less": {
+	"\/assets\/fonts\/fontawesome\/less\/mixins.less": {
 		"aP": 0,
 		"bl": 0,
 		"dJ": 0,
@@ -2534,7 +2527,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/less\/mixins.css",
+		"oAP": "\/assets\/fonts\/fontawesome\/less\/mixins.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -2542,7 +2535,7 @@
 		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/less\/path.less": {
+	"\/assets\/fonts\/fontawesome\/less\/path.less": {
 		"aP": 0,
 		"bl": 0,
 		"dJ": 0,
@@ -2551,7 +2544,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/less\/path.css",
+		"oAP": "\/assets\/fonts\/fontawesome\/less\/path.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -2559,7 +2552,7 @@
 		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/less\/rotated-flipped.less": {
+	"\/assets\/fonts\/fontawesome\/less\/rotated-flipped.less": {
 		"aP": 0,
 		"bl": 0,
 		"dJ": 0,
@@ -2568,7 +2561,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/less\/rotated-flipped.css",
+		"oAP": "\/assets\/fonts\/fontawesome\/less\/rotated-flipped.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -2576,7 +2569,7 @@
 		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/less\/screen-reader.less": {
+	"\/assets\/fonts\/fontawesome\/less\/screen-reader.less": {
 		"aP": 0,
 		"bl": 0,
 		"dJ": 0,
@@ -2585,7 +2578,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/less\/screen-reader.css",
+		"oAP": "\/assets\/fonts\/fontawesome\/less\/screen-reader.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -2593,7 +2586,7 @@
 		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/less\/stacked.less": {
+	"\/assets\/fonts\/fontawesome\/less\/stacked.less": {
 		"aP": 0,
 		"bl": 0,
 		"dJ": 0,
@@ -2602,7 +2595,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/less\/stacked.css",
+		"oAP": "\/assets\/fonts\/fontawesome\/less\/stacked.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -2610,7 +2603,7 @@
 		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/less\/variables.less": {
+	"\/assets\/fonts\/fontawesome\/less\/variables.less": {
 		"aP": 0,
 		"bl": 0,
 		"dJ": 0,
@@ -2619,7 +2612,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/less\/variables.css",
+		"oAP": "\/assets\/fonts\/fontawesome\/less\/variables.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -2627,7 +2620,7 @@
 		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/scss\/_animated.scss": {
+	"\/assets\/fonts\/fontawesome\/scss\/_animated.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -2635,12 +2628,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/css\/_animated.css",
+		"oAP": "\/assets\/fonts\/fontawesome\/css\/_animated.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/scss\/_bordered-pulled.scss": {
+	"\/assets\/fonts\/fontawesome\/scss\/_bordered-pulled.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -2648,12 +2641,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/css\/_bordered-pulled.css",
+		"oAP": "\/assets\/fonts\/fontawesome\/css\/_bordered-pulled.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/scss\/_core.scss": {
+	"\/assets\/fonts\/fontawesome\/scss\/_core.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -2661,12 +2654,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/css\/_core.css",
+		"oAP": "\/assets\/fonts\/fontawesome\/css\/_core.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/scss\/_fixed-width.scss": {
+	"\/assets\/fonts\/fontawesome\/scss\/_fixed-width.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -2674,12 +2667,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/css\/_fixed-width.css",
+		"oAP": "\/assets\/fonts\/fontawesome\/css\/_fixed-width.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/scss\/_icons.scss": {
+	"\/assets\/fonts\/fontawesome\/scss\/_icons.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -2687,12 +2680,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/css\/_icons.css",
+		"oAP": "\/assets\/fonts\/fontawesome\/css\/_icons.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/scss\/_larger.scss": {
+	"\/assets\/fonts\/fontawesome\/scss\/_larger.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -2700,12 +2693,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/css\/_larger.css",
+		"oAP": "\/assets\/fonts\/fontawesome\/css\/_larger.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/scss\/_list.scss": {
+	"\/assets\/fonts\/fontawesome\/scss\/_list.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -2713,12 +2706,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/css\/_list.css",
+		"oAP": "\/assets\/fonts\/fontawesome\/css\/_list.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/scss\/_mixins.scss": {
+	"\/assets\/fonts\/fontawesome\/scss\/_mixins.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -2726,12 +2719,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/css\/_mixins.css",
+		"oAP": "\/assets\/fonts\/fontawesome\/css\/_mixins.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/scss\/_path.scss": {
+	"\/assets\/fonts\/fontawesome\/scss\/_path.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -2739,12 +2732,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/css\/_path.css",
+		"oAP": "\/assets\/fonts\/fontawesome\/css\/_path.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/scss\/_rotated-flipped.scss": {
+	"\/assets\/fonts\/fontawesome\/scss\/_rotated-flipped.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -2752,12 +2745,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/css\/_rotated-flipped.css",
+		"oAP": "\/assets\/fonts\/fontawesome\/css\/_rotated-flipped.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/scss\/_screen-reader.scss": {
+	"\/assets\/fonts\/fontawesome\/scss\/_screen-reader.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -2765,12 +2758,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/css\/_screen-reader.css",
+		"oAP": "\/assets\/fonts\/fontawesome\/css\/_screen-reader.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/scss\/_stacked.scss": {
+	"\/assets\/fonts\/fontawesome\/scss\/_stacked.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -2778,12 +2771,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/css\/_stacked.css",
+		"oAP": "\/assets\/fonts\/fontawesome\/css\/_stacked.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/fonts\/font-awesome-4.7.0\/scss\/_variables.scss": {
+	"\/assets\/fonts\/fontawesome\/scss\/_variables.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -2791,10 +2784,392 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/assets\/fonts\/font-awesome-4.7.0\/css\/_variables.css",
+		"oAP": "\/assets\/fonts\/fontawesome\/css\/_variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/assets\/fonts\/panton\/Panton-Black.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/Panton-Black.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/Panton-BlackItalic.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/Panton-BlackItalic.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/panton-bold-webfont.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/panton-bold-webfont.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/panton-bold-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/panton-bold-webfont.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/panton-bold-webfont.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/panton-bold-webfont.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/Panton-Bold.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/Panton-Bold.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/Panton-BoldItalic.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/Panton-BoldItalic.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/Panton-ExtraBold.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/Panton-ExtraBold.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/Panton-ExtraBoldItalic.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/Panton-ExtraBoldItalic.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/Panton-ExtraLight.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/Panton-ExtraLight.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/Panton-ExtraLightItalic.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/Panton-ExtraLightItalic.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/Panton-Heavy.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/Panton-Heavy.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/Panton-HeavyItalic.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/Panton-HeavyItalic.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/Panton-Light.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/Panton-Light.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/Panton-LightItalic.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/Panton-LightItalic.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/panton-regular-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/panton-regular-webfont.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/panton-regular-webfont.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/panton-regular-webfont.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/Panton-Regular.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/Panton-Regular.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/Panton-RegularItalic.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/Panton-RegularItalic.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/Panton-SemiBold.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/Panton-SemiBold.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/Panton-SemiBoldItalic.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/Panton-SemiBoldItalic.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/Panton-Thin.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/Panton-Thin.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/Panton-ThinItalic.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/Panton-ThinItalic.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/PantonIcons-AFillLight.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/PantonIcons-AFillLight.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/PantonIcons-AFillRegular.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/PantonIcons-AFillRegular.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/PantonIcons-ALight.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/PantonIcons-ALight.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/PantonIcons-ARegular.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/PantonIcons-ARegular.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/PantonIcons-BFillLight.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/PantonIcons-BFillLight.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/PantonIcons-BFillRegular.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/PantonIcons-BFillRegular.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/PantonIcons-BLight.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/PantonIcons-BLight.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/PantonIcons-BRegular.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/PantonIcons-BRegular.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/PantonIcons-CFillLight.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/PantonIcons-CFillLight.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/PantonIcons-CFillRegular.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/PantonIcons-CFillRegular.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/PantonIcons-CLight.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/PantonIcons-CLight.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/PantonIcons-CRegular.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/PantonIcons-CRegular.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/PantonIcons-DFillLight.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/PantonIcons-DFillLight.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/PantonIcons-DFillRegular.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/PantonIcons-DFillRegular.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/PantonIcons-DLight.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/PantonIcons-DLight.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton\/PantonIcons-DRegular.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/panton\/PantonIcons-DRegular.otf",
+		"oF": 0
+		},
+	"\/assets\/images\/favicons\/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 11143,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/favicons\/android-chrome-512x512.png": {
+		"ft": 32768,
+		"iS": 27210,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/android-chrome-512x512.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/favicons\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 10389,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/favicons\/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/browserconfig.xml",
+		"oF": 0
+		},
+	"\/assets\/images\/favicons\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 1227,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/favicons\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1667,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/favicons\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/favicon.ico",
+		"oF": 0
+		},
+	"\/assets\/images\/favicons\/favicon.png": {
+		"ft": 32768,
+		"iS": 32269,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/favicon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/favicons\/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/assets\/images\/favicons\/manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/assets\/images\/favicons\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 7716,
+		"oA": 0,
+		"oAP": "\/assets\/images\/favicons\/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/favicons\/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/favicons\/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/assets\/images\/logos\/1.jpg": {
 		"ft": 16384,
@@ -2911,6 +3286,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/images\/logos\/header-mast.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/logos\/header-mast.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/images\/photos\/activate-attendee.jpg": {
 		"ft": 16384,
 		"iS": 89628,
@@ -2944,6 +3329,236 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/photos\/activate-founder-st-joseph-student.psd",
 		"oF": 0
+		},
+	"\/assets\/images\/photos\/header.jpg": {
+		"ft": 16384,
+		"iS": 219082,
+		"oA": 0,
+		"oAP": "\/assets\/images\/photos\/header.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/squiggilations\/blast.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/squiggilations\/blast.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/squiggilations\/button-call-for-speakers.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/squiggilations\/button-call-for-speakers.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/squiggilations\/button-call-for-volunteers.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/squiggilations\/button-call-for-volunteers.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/squiggilations\/button-sponsorship.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/squiggilations\/button-sponsorship.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/squiggilations\/button.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/squiggilations\/button.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/squiggilations\/circles.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/squiggilations\/circles.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/squiggilations\/cube-stripes.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/squiggilations\/cube-stripes.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/squiggilations\/dot-blue.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/squiggilations\/dot-blue.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/squiggilations\/dot-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/squiggilations\/dot-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/squiggilations\/gem.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/squiggilations\/gem.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/squiggilations\/glasses.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/squiggilations\/glasses.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/squiggilations\/laptop.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/squiggilations\/laptop.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/squiggilations\/orange-arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/squiggilations\/orange-arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/squiggilations\/orange-plusses.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/squiggilations\/orange-plusses.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/squiggilations\/phone-circles.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/squiggilations\/phone-circles.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/squiggilations\/phone.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/squiggilations\/phone.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/squiggilations\/rocket-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/squiggilations\/rocket-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/squiggilations\/roller-drops.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/squiggilations\/roller-drops.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/squiggilations\/sqiggles-blue.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/squiggilations\/sqiggles-blue.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/squiggilations\/squiggles.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/squiggilations\/squiggles.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/squiggilations\/watch.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/squiggilations\/watch.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/squiggilations\/white-plusses.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/squiggilations\/white-plusses.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/assets\/js\/main-min.js": {
 		"ft": 64,
@@ -3052,6 +3667,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/LICENSE",
+		"oF": 0
+		},
+	"\/partials\/_banner.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/partials\/_banner.html",
 		"oF": 0
 		},
 	"\/partials\/_card-event.kit": {
