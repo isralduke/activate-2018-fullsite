@@ -1,0 +1,19 @@
+<section class="section schedule background-orange py-5 mx-3 text-white">
+	<div class="container"> 
+		<div class="row">
+			<div class="col-12">
+				<h3 class="h3 text-center text-white mb-5">{{block.heading}}</h3>
+			</div>
+		</div>
+
+					<table class="table">
+					{% for row in block.schedule %}
+						<tr>
+		<td>{{ row.time }}</td>
+		<td>{{ row.event }}</td>            
+						</tr>
+					{% endfor %}
+					</table>
+
+	</div>
+</section>

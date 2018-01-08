@@ -1,0 +1,418 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"flex-",
+				"flex-start"
+			],
+			[
+				"flex",
+				"flex-direction"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"sma",
+				"smaller"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"c",
+				"cover"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"spa",
+				"space-between"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"sp",
+				"space-between"
+			],
+			[
+				"fle",
+				"flex-direction"
+			],
+			[
+				"di",
+				"display"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "scss/styles.scss",
+			"settings":
+			{
+				"buffer_size": 11466,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 1502,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 362,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "pa",
+		"selected_items":
+		[
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 431.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"function print(message) {"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/isral/repos/activate-full/remote",
+		"/Users/isral/repos/activate-full/remote/assets",
+		"/Users/isral/repos/activate-full/remote/assets/img",
+		"/Users/isral/repos/activate-full/remote/assets/img/headshots",
+		"/Users/isral/repos/activate-full/remote/css",
+		"/Users/isral/repos/activate-full/remote/js",
+		"/Users/isral/repos/activate-full/remote/js/min",
+		"/Users/isral/repos/activate-full/remote/js/vendor",
+		"/Users/isral/repos/activate-full/remote/js/vendor/min",
+		"/Users/isral/repos/activate-full/remote/partials",
+		"/Users/isral/repos/activate-full/remote/scss"
+	],
+	"file_history":
+	[
+		"/Users/isral/Dropbox/clients boxes/Safety Pro Resources/Labor Laws Poster 2016/laws/FMLA.txt",
+		"/Users/isral/repos/activate-full/remote/partials/fb.html",
+		"/Users/isral/repos/activate-full/remote/assets/img/icon-twitter.svg",
+		"/Users/isral/repos/activate-full/remote/assets/img/icon-facebook.svg",
+		"/Users/isral/repos/activate-full/remote/assets/img/icon-instagram.svg",
+		"/Users/isral/repos/activate-full/remote/js/vendor/svg-inject.js",
+		"/Users/isral/repos/activate-full/remote/js/vendor/min/svg-inject.min.js",
+		"/Users/isral/repos/activate-full/remote/humans.txt",
+		"/Users/isral/repos/activate-full/remote/css/styles.min.css",
+		"/Users/isral/repos/activate-full/remote/js/activations.js",
+		"/Users/isral/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/isral/repos/activate-full/remote/scss/_normalize.scss",
+		"/Users/isral/repos/activate-full/remote/partials/faves.html",
+		"/Users/isral/repos/activate-full/remote/robots.txt",
+		"/Users/isral/repos/activate-full/remote/index.php",
+		"/Users/isral/Dropbox/clients boxes/Safety Pro Resources/SMS eBook/indd version/assets/source text.txt",
+		"/Users/isral/Dropbox/Resumés/isral/isral-Duke-Résumé, simple.md"
+	],
+	"find":
+	{
+		"height": 50.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"panel",
+			"of-type",
+			"<h3>presentation title</h3>",
+			"<p class=\"speaker-name\">first last</p>",
+			"<section class=\"speaker-bio\">",
+			"<img src=\"\" alt=\"\" class=\"speaker-photo\">",
+			"wrap-site",
+			"<section class=\"col speaker-bio-wrap\">",
+			"<img src=\"\"",
+			"speaker-bio-wrap",
+			"speaker-bio col-50",
+			"speaker-photo col-50",
+			"<section class=\" \">",
+			"<h3>presentation title</h3>",
+			"<p class=\"speaker-name\">first last</p>",
+			"col-50",
+			"speaker-bio",
+			"<section>",
+			"h2",
+			"src=\"icon-",
+			"<img src=\"\" alt=\"",
+			"h2",
+			"<button class=\"\"",
+			"<button class=\"\">",
+			"<button class=\"\"",
+			"<section><img src=\"\"",
+			"<div>\n\t\t\t\t<h4>",
+			"<div>\n\t\t\t\t<h4>first last</h4>",
+			"’",
+			"“",
+			", "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "scss/styles.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11466,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6482,
+								6007
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/Boxy Theme/schemes/Boxy Yesterday.tmTheme",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 8010.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1502,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/Boxy Theme/schemes/Boxy Yesterday.tmTheme",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "scss/_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 362,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/Boxy Theme/schemes/Boxy Yesterday.tmTheme",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "activate-full.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 197.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

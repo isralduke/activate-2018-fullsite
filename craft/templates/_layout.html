@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/Website">
+	<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="{{ company.company }}">
+        {% set entry = entry is defined ? entry %}  
+        {% if entry is not defined %}
+            {% set entry = craft.entries.slug('404').first() %}
+        {% endif %}               
+        <title>{% if entry.metaTitle %}{{entry.metaTitle}}{% else %}{{ entry.title }}{% endif %} | {{ siteName }} – {{ meta.metaTitle }} </title>
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+		<link rel="home" href="{{ siteUrl }}" />
+	  	<meta name="description" content="{% if entry.metaDescription %}{{entry.metaDescription}} {% else %} {{ meta.metaDescription }} {% endif %}">
+        
+		<!-- Schema.org markup for Google+ -->
+		<meta itemprop="name" content="{% if entry.metaTitle %}{{entry.metaTitle}} {% else %} {{ entry.title }} {% endif %} | {{ siteName }} – {{ meta.metaTitle }} ">
+		<meta itemprop="description" content="{% if entry.metaDescription %}{{entry.metaDescription}} {% else %} {{ meta.metaDescription }} {% endif %}">
+		<meta itemprop="image" content="{% if entry.heroImage.first %}{{ entry.heroImage.first().openGraph.url }}
+		{% else %}
+		http://activateconf.com/assets/img/og-image.png
+		{% endif %}">
+
+		<!-- Twitter Card data -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@activ8conf">
+		<meta name="twitter:title" content="{% if entry.metaTitle %}{{entry.metaTitle}} {% else %} {{ entry.title }} {% endif %} | {{ siteName }} – {{ meta.metaTitle }} ">
+		<meta name="twitter:description" content="{% if entry.metaDescription %}{{entry.metaDescription}} {% else %} {{ meta.metaDescription }} {% endif %}">
+		<meta name="twitter:creator" content="@activ8conf">
+		<meta name="twitter:image:src" content="{% if entry.heroImage.first %}{{ entry.heroImage.first().openGraph.url }}
+		{% else %}
+		http://activateconf.com/assets/img/twitter-card-image.png
+		{% endif %}">
+
+		<!-- Open Graph data -->
+		<meta property="og:title" content="{% if entry.metaTitle %}{{entry.metaTitle}} {% else %} {{ entry.title }} {% endif %} | {{ siteName }} – {{ meta.metaTitle }}" />
+		<meta property="og:type" content="article" />
+		<meta property="og:url" content="{{entry.url}}" />
+		<meta property="og:image" content="
+		{% if entry.heroImage.first %}{{ entry.heroImage.first().openGraph.url }}
+		{% else %}
+		http://activateconf.com/assets/img/og-image.png
+		{% endif %}" />
+		<meta property="og:description" content="{% if entry.metaDescription %}{{entry.metaDescription}} {% else %} {{ meta.metaDescription }} {% endif %}" />
+		<meta property="og:site_name" content="{{ company.company }}" />
+       
+        <link type="text/css" rel="stylesheet" href="/assets/css/styles.css"/>
+		
+		
+    </head>
+    <body class="{{ craft.request.getSegment(1) ?: 'home' }} {% if bodyClass is defined %}{{ bodyClass }}{% endif %} {{ craft.request.getSegment(2) }}">
+		{% include "_includes/_nav" %}
+    	<main class="main" id="main">
+		    
+		{% block content %}
+			<p>If you see me, contact the website admin.</p>
+		{% endblock %}
+		
+		</main>
+        
+        {% cache globally %}
+		{% endcache %}
+        
+    	{% include "_includes/_mailing" %}
+</main>
+{% include "_includes/_footer" %}
+<script src="/assets/js/vendor/jquery-3.2.1.min.js"></script>
+<script src="/assets/js/vendor/popper.min.js"></script>
+<script src="/assets/js/vendor/bootstrap.min.js"></script>
+<script src="/assets/js/main-min.js"></script>
+<script>
+	window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+	ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body> 
+</html>

@@ -1,0 +1,59 @@
+// Base class
+//
+// Requires one of the contextual, color modifier classes for `color` and
+// `background-color`.
+
+.badge {
+  display: flex;
+  justify-content: center;
+  padding: 0; margin-right: $spacer*.75;
+  font-size: $spacer * 2;
+  font-weight: $badge-font-weight;
+  line-height: unset;
+  text-align: center;
+  white-space: nowrap;
+  
+  @include border-radius($badge-border-radius);
+  width: $spacer * 3; height: $spacer * 3;
+
+  @include media-breakpoint-up(sm) {
+    font-size: $spacer * 3;
+    width: $spacer * 4; height: $spacer * 4;
+  }
+
+  // Empty badges collapse automatically
+  &:empty {
+    display: none;
+  }
+}
+
+// Quick fix for badges in buttons
+.btn .badge {
+  position: relative;
+  top: -1px;
+}
+
+// Pill badges
+//
+// Make them extra rounded with a modifier to replace v3's badges.
+
+.badge-pill {
+  padding-right: $badge-pill-padding-x;
+  padding-left: $badge-pill-padding-x;
+  @include border-radius($badge-pill-border-radius);
+}
+
+// Colors
+//
+// Contextual variations (linked badges get darker on :hover).
+
+@each $color, $value in $theme-colors {
+  .badge-#{$color} {
+    @include badge-variant($value);
+  }
+}
+.badge-orange {
+  background-color: $orange;
+  border-radius: 50%;
+
+}

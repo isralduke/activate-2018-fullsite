@@ -1,0 +1,36 @@
+/* EVENT */
+
+Site: ActivateConf.com
+
+Location: Baton Rouge, LA, USA
+
+
+
+
+
+
+
+
+
+/* SITE */
+
+Last update: 2017/09/12
+
+Standards: HTML5, CSS3, SCSS, jQuery, GSAP
+
+Software: SublimeText3, CodeKit, GitHub, Transmit
+
+
+
+
+
+
+
+
+/* TEAM */
+
+Site Designer: Lynsey Jordan Gwin (@lynseydesign)
+
+SVG Animator: Quinton Jason, Jr (@quintonjasonjr)
+
+Front End Code: isral C. Duke (@isralduke)
