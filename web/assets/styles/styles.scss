@@ -158,22 +158,7 @@ body {
 main {
 	z-index: 9999;
 }
-.header {
-	background-color: $teal;
-	background-image: url('../images/header.jpg');
-	background-size: cover;
-	background-blend-mode: multiply;
-	padding: $spacer*3 0 $spacer*6;
-	-webkit-clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
-	-moz-clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
-	-ms-clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
-	-o-clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
-	clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
-	position: relative;
-	@media screen and (min-width: 768px){
-		padding: $spacer*8 0 $spacer*10;
-	}
-}
+
 .info {
 	.container {
 		margin-bottom: 100px;
@@ -228,10 +213,7 @@ main {
 		margin: $spacer $spacer 0;
 		transition: all 0.3s;
 		@media screen and (min-width: 768px){
-			&:last-of-type {
-				margin: $spacer auto;
-				width: 442px; height: 99px;
-			}
+
 		}
 		@media screen and (min-width: 1280px){
 			height: 99px; width: auto;
@@ -373,10 +355,10 @@ main {
 		top: 480px; left: 660px;
 	}
 	@media screen and ( min-width: 1024px ){
-		top: 500px; left: 760px;
+		top: 60px; left: 760px;
 	}
 	@media screen and ( min-width: 1280px ){
-		top: 550px; left: 1050px;
+		top: 60px; left: 1050px;
 	}
 }
 .cube-stripes {
@@ -504,4 +486,8 @@ main {
 .badge-box{
 	position: relative;
 	z-index: 10;
+}
+
+.video{
+	margin-top:$spacer*2;
 }

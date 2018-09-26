@@ -19,7 +19,7 @@
 		<meta itemprop="description" content="{% if entry.metaDescription %}{{entry.metaDescription}} {% else %} {{ meta.metaDescription }} {% endif %}">
 		<meta itemprop="image" content="{% if entry.heroImage.first %}{{ entry.heroImage.first().openGraph.url }}
 		{% else %}
-		http://activateconf.com/assets/img/og-image.png
+		http://www.activateconf.com/assets/images/Activate-Conference-2018.jpg
 		{% endif %}">
 
 		<!-- Twitter Card data -->
@@ -30,7 +30,7 @@
 		<meta name="twitter:creator" content="@activ8conf">
 		<meta name="twitter:image:src" content="{% if entry.heroImage.first %}{{ entry.heroImage.first().openGraph.url }}
 		{% else %}
-		http://activateconf.com/assets/img/twitter-card-image.png
+		http://www.activateconf.com/assets/images/Activate-Conference-2018.jpg
 		{% endif %}">
 
 		<!-- Open Graph data -->
@@ -40,14 +40,14 @@
 		<meta property="og:image" content="
 		{% if entry.heroImage.first %}{{ entry.heroImage.first().openGraph.url }}
 		{% else %}
-		http://activateconf.com/assets/img/og-image.png
+		http://www.activateconf.com/assets/images/Activate-Conference-2018.jpg
 		{% endif %}" />
 		<meta property="og:description" content="{% if entry.metaDescription %}{{entry.metaDescription}} {% else %} {{ meta.metaDescription }} {% endif %}" />
 		<meta property="og:site_name" content="{{ company.company }}" />
        
         <link type="text/css" rel="stylesheet" href="/assets/css/styles.css"/>
 		
-		
+		<script async src="https://widget.picatic.com/latest/js/embed.min.js" id="picatic-widget-script"></script>
     </head>
     <body class="{{ craft.request.getSegment(1) ?: 'home' }} {% if bodyClass is defined %}{{ bodyClass }}{% endif %} {{ craft.request.getSegment(2) }}">
 		{% include "_includes/_nav" %}
@@ -71,7 +71,7 @@
 <script src="/assets/js/main-min.js"></script>
 <script>
 	window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-	ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+	ga('create','UA-108426327-1','auto');ga('send','pageview')
 </script>
 <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </body> 

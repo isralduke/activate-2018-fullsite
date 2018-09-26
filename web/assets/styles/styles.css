@@ -4,6 +4,7 @@
   src: url("../fonts/panton-regular-webfont.woff2") format("woff2"), url("../fonts/panton-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
+
 .position-relative, .h1, .h2 {
   position: relative; }
 
@@ -86,6 +87,7 @@ h2 {
   .about {
     margin-right: 52px;
     margin-left: auto; } }
+
 @media screen and (min-width: 1024px) {
   .about {
     margin-right: 120px;
@@ -103,22 +105,6 @@ body {
 main {
   z-index: 9999; }
 
-.header {
-  background-color: #13AFB5;
-  background-image: url("../images/header.jpg");
-  background-size: cover;
-  background-blend-mode: multiply;
-  padding: 60px 0 120px;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
-  -moz-clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
-  -ms-clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
-  -o-clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
-  position: relative; }
-  @media screen and (min-width: 768px) {
-    .header {
-      padding: 160px 0 200px; } }
-
 .info .container {
   margin-bottom: 100px; }
 
@@ -128,10 +114,17 @@ main {
   width: 64px;
   height: 64px;
   border-radius: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   bottom: -32px;
   right: 10px;
   z-index: 10; }
@@ -153,30 +146,43 @@ main {
       right: 0px; } }
 
 .button-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column; }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
   @media screen and (min-width: 768px) {
     .button-row {
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: flex-start;
-      align-content: flex-start; } }
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+      -ms-flex-line-pack: start;
+          align-content: flex-start; } }
+
 .button-button {
   margin: 20px 20px 0;
+  -webkit-transition: all 0.3s;
   transition: all 0.3s; }
-  @media screen and (min-width: 768px) {
-    .button-button:last-of-type {
-      margin: 20px auto;
-      width: 442px;
-      height: 99px; } }
   @media screen and (min-width: 1280px) {
     .button-button {
       height: 99px;
       width: auto;
       margin: 20px auto; } }
   .button-button:hover {
-    transform: scale(1.1); }
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1); }
+
 .button-img {
   display: block;
   width: 100%;
@@ -253,7 +259,8 @@ main {
   position: absolute;
   bottom: 20px;
   left: 100%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   width: 175px;
   height: 124px;
   background-repeat: no-repeat;
@@ -286,11 +293,11 @@ main {
       left: 660px; } }
   @media screen and (min-width: 1024px) {
     .watch {
-      top: 500px;
+      top: 60px;
       left: 760px; } }
   @media screen and (min-width: 1280px) {
     .watch {
-      top: 550px;
+      top: 60px;
       left: 1050px; } }
 
 .cube-stripes {
@@ -408,7 +415,8 @@ main {
     .sqiggles-blue {
       bottom: 40px;
       right: 100px;
-      transform: rotate(15deg); } }
+      -webkit-transform: rotate(15deg);
+              transform: rotate(15deg); } }
 
 @media screen and (max-width: 415px) {
   .widget {
@@ -417,3 +425,7 @@ main {
 .badge-box {
   position: relative;
   z-index: 10; }
+
+.video {
+  margin-top: 40px; }
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,37 @@
+{#
+ # Updates template
+ # ---------------
+ #}
+{% extends "_layout" %}
+{% set bodyClass = 'interior general' %}
+
+{% block content %}
+
+	<div class="container">
+			<h2 class="display-4 text-teal mb-5">{{entry.title}}</h2>
+	</div>
+	<div class="container mb-5">
+		<div class="row">
+		{% for entry in craft.entries.section('updates') %}
+			<article class="col-12 col-md-6">
+				<h1 class="mb-0"><a href="{{ entry.url }}">{{ entry.title }}</a></h1>
+				<p class="text-muted"><small>{{ entry.postDate | date("M d, Y") }}</small></p>
+				{{ entry.body }}
+			</article>
+		{% endfor %}
+		</div>
+	</div>
+
+	{% for block in entry.buildingBlocks %}
+		{% include '_buildingBlocks/_' ~ block.type.handle with { block: block, title: entry.title } only %}
+	{% endfor %}
+
+{% include "_includes/_contact" %}
+
+{% if entry.slug == "sponsors-partners" %}
+
+{% include "_includes/_sponsor" %}
+
+{% endif %}
+
+{% endblock %}

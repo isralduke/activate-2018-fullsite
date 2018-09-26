@@ -16,7 +16,7 @@
 			{% for entry in sponsors.relatedTo(category) %}
 			<div class="col-11 col-md-4 col-lg-3 mb-4">
 				<div class="card bg-white p-3 h-100">
-					<a href="{{ entry.url }}" class=" h-100 d-flex align-items-center">
+					<a href="{{ entry.websiteUrl }}" class=" h-100 d-flex align-items-center">
 					  <img src="{{entry.logoUpload.first.url}}" class="img-fluid" title="{{ entry.title }}"/>
 					</a>
 				</div>

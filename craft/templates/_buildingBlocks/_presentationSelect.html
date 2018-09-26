@@ -17,13 +17,15 @@
 							<p class="text-white">{{presentation.presentationName}}</p>
 							{% if presentation.trackCategorySelect.first %}<p class="text-white">{{presentation.trackCategorySelect.first.title}} Track</p>{% endif %}
 							<p class="text-white">{{presentation.time}}</p>
+							
 						</div>
 						<div class="card-footer background-navy col-md-4 h-100">
 							<div class=" img-bio-wrapper background-teal">
-								{% if presentation.featureImageUpload.first %}<img class=" img-fluid" src="{{presentation.featureImageUpload.first.url}}" alt="{{presentation.presenterName}}">{% endif %}
+								{% if presentation.featureImageUpload.first %}<img class=" img-fluid" src="{{presentation.featureImageUpload.first.square.url}}" alt="{{presentation.presenterName}}">{% endif %}
 							</div>
 						</div>
 					</div>
+					<p class="text-white small">{{presentation.presentationDescription}}</p>
 				</div>
 			</div>
 		{% endfor %}

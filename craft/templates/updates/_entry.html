@@ -1,0 +1,30 @@
+{#
+ # Updates template
+ # ---------------
+ #}
+{% extends "_layout" %}
+{% set bodyClass = 'interior general' %}
+
+{% block content %}
+
+	<div class="container">
+			<h2 class="display-4 text-teal mb-5">Updates</h2>
+	</div>
+	<div class="container mb-5">
+		<article>
+			<h1><a href="{{ entry.url }}">{{ entry.title }}</a></h1>
+			<p class="muted"><small>{{ entry.postDate | date("M d, Y") }}</small></p>
+			{{ entry.body }}
+		</article>
+		<p><a href="/updates"><i class="fa fa-long-arrow-left"></i> Back to all updates</a></p>
+	</div>
+
+{% include "_includes/_contact" %}
+
+{% if entry.slug == "sponsors-partners" %}
+
+{% include "_includes/_sponsor" %}
+
+{% endif %}
+
+{% endblock %}

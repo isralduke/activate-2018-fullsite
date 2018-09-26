@@ -1,10 +1,5 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Untitled Document</title>
-</head>
-
-<body>
-</body>
-</html>
+{% extends [ 
+	'_custom/' ~ entry.slug, 
+	'_entrytypes/' ~ entry.type,
+	 'general/_entry' ] 
+%}
