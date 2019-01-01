@@ -1,0 +1,55 @@
+.btn-light {
+	font-family: 'pantonextrabold';
+	background-color: $white;
+	color: $red;
+	border: none;
+	&:hover, &:focus {
+		background-color: $red;
+		color: $white;
+	}
+}
+.form-control {
+	border: none;
+}
+body {
+	background-color: $navy;
+	color: $white;
+	background-image: url('../images/bg-tile.png');
+	font-family: 'pantonregular';
+}
+.banner-image {
+	position: absolute;
+	width: 100%;
+	top: 0; left: 0; right: 0;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 10%);
+	clip-path:         polygon(0 0, 100% 0, 100% 95%, 0 10%);
+}
+.header {
+	position: relative;
+	z-index: 1;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.embed-responsive {
+	box-shadow: -1px 1px 40px 0px fade-out($teal, .5);
+	border-radius: 16px;
+}
+.overlay-icon {
+	position: absolute;
+	top: 20%; left: 90%;
+	transform: translateX(-50%) translateY(-50%);
+	z-index: 10;
+	@media screen and (min-width: 1023px){
+		top:50%; left: 50%;
+	}
+}
+.overlay {
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+	&.yellow {
+		background-color: fade-out($yellow,.5);
+	}
+	&.red {
+		background-color: fade-out($red,.5);
+	}
+}

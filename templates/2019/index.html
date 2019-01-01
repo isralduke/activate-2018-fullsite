@@ -1,0 +1,243 @@
+{#
+ # Homepage template
+ # ---------------
+ #}
+{% set entry = craft.entries.id(10).one() %}
+{% extends "_layout" %}
+{% set bodyClass = 'home' %}
+
+{% block content %}
+	{% cache %}
+        
+    {% endcache %}
+
+<header class="section">
+    <div class="mx-md-3 text-center">
+
+        <img src="{{entry.mastheadImage.one.url}}" class="img-fluid" alt="Activate Conference 2019 – A Conference for All Things Interactive" />
+    </div>
+</header>
+
+<section class="section masthead masthead-home background-white py-5" style="background-image: url('{{entry.introImage.first.url}}');">
+	<div class="container">
+		<div class="col-12 col-md-6 col-lg-8 py-5">
+			
+			{{entry.introBody}}
+			
+		</div>
+	</div>
+</section>
+
+<section class="section schedule">
+	<div class="mx-md-3 background-red background-img-size-cover background-img-center-center background-repeat-no py-5" style="background-image: url('http://www.activateconf.com/assets/images/photos/red-blur.jpg');">
+		<div class="container">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-11 col-md-6 col-lg-5 order-md-2">
+					<div class="mb-4">
+						<p class="text-right text-white my-0">{{company.company}} 2019</p>
+						<h3 class="h3 text-right text-white text-upper my-0">April 4-6</h3>
+						<p class="text-right text-white my-0">@ lousiana tech park <br />baton rouge, la</p>
+					</div>
+				</div>
+				<div class="col-11 col-md-6 col-lg-5 order-md-1">
+					<div class="card card-person background-navy mb-4 p-2">
+						<div class="card-body pb-0">
+							<h3 class="h3 text-orange text-upper">day 1</h3>
+							<h4 class="h4 text-orange text-upper">workshop day</h4>
+							<p class="text-white">A day of workshops for students and professionals. 6 90-minute/180-minute workshops in 2 rooms. Attend one or many.</p>
+							<p class="text-white mb-5">Time: 9:30 AM - 4:15 PM</p>
+						</div>
+						<div class="card-footer background-navy position-relative">
+							<a href="/workshops" class="d-flex justify-content-center align-items-center arrow-link position-absolute right bottom text-white" title="Go to Workshops">
+								<span class="fa fa-arrow-right"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-11 col-md-6 col-lg-5 order-md-3">
+					<div class="card card-person background-navy mb-4 p-2">
+						<div class="card-body pb-0">
+							<h3 class="h3 text-orange text-upper">day 2</h3>
+							<h4 class="h4 text-orange text-upper">hackathon day</h4>
+							<p class="text-white">Last working day of Activate Hackathon. The week-long hacking event comes to a close. More details to come.</p>
+							<p class="text-white mb-5">Time: 9:00 AM - 7:30 PM</p>
+						</div>
+						<div class="card-footer background-navy position-relative">
+							<a href="/hackathon" class="d-flex justify-content-center align-items-center arrow-link position-absolute right bottom text-white" title="Go to Hackathon">
+								<span class="fa fa-arrow-right"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-11 col-md-6 col-lg-5 order-md-4">
+					<div class="card card-person background-navy mb-4 p-2">
+						<div class="card-body pb-0">
+							<h3 class="h3 text-orange text-upper">day 3</h3>
+							<h4 class="h4 text-orange text-upper">conference day</h4>
+							<p class="text-white">Our main event: Activate Conference now with student and professional tracks. 8 60-minute talks in 2 rooms.</p>
+							<p class="text-white mb-5">Time: 10:00 AM - 5:30 PM</p>
+						</div>
+						<div class="card-footer background-navy position-relative">
+							<a href="/conference" class="d-flex justify-content-center align-items-center arrow-link position-absolute right bottom text-white" title="Go to Conference">
+								<span class="fa fa-arrow-right"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+</section>
+															
+<section class="section">
+	<div class="mx-md-3 background-navy py-5 background-img-size-cover background-img-center-center background-repeat-no" style="background-image: url('http://www.activateconf.com/assets/images/photos/blue-blur.jpg');">
+		<div class="container">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-12 col-sm-3">
+					<h3 class="h3 text-orange">2019</h3>
+					<p class="text-white">by the numbers</p>
+				</div>
+				<div class="col-12 col-sm-8 col-md-7">
+					<div class="row justify-content-between align-items-center">
+						<div class="col-6">
+							<p class="d-flex justify-content-start align-items-center text-white">
+								<span class="badge badge-orange text-navy">3</span>
+								<span class="number-label">days</span>
+							</p>
+						</div>
+						<div class="col-6">
+							<p class="d-flex justify-content-start align-items-center text-white">
+								<span class="badge badge-orange text-navy">8</span>
+								<span class="number-label">speakers</span>
+							</p>
+						</div>
+						<div class="col-6">
+							<p class="d-flex justify-content-start align-items-center text-white">
+								<span class="badge badge-orange text-navy">6</span>
+								<span class="number-label">workshops</span>
+							</p>
+						</div>
+						<div class="col-6">
+							<p class="d-flex justify-content-start align-items-center text-white">
+								<span class="badge badge-orange text-navy">2</span>
+								<span class="number-label">tracks</span>
+							</p>
+						</div>
+						<div class="col-6">
+							<p class="d-flex justify-content-start align-items-center text-white">
+								<span class="badge badge-orange text-navy">1</span>
+								<span class="number-label">hackathon</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section">
+	<div class="mx-md-3 background-navy py-5">
+        <div class="container">
+            <div class="row">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CC8fRbj4hdQ?rel=0&amp;controls=0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+<section class="photos">
+    <script>
+
+    </script>
+    <div class="mx-md-3">
+    <div class="row no-gutters photos" id="photos">
+        <div class="col-3">
+            <a href="http://www.activateconf.com/assets/images/photos/01.jpg" title="Click to see this photo at a larger size" data-fancybox="gallery" data-caption="Baton Rouge Mayor-President Sharon Broome joined Activate Conference 2018 as a guest speaker.">
+                <img src="http://www.activateconf.com/assets/images/zoom.svg" alt="" class="overlay-icon" />
+                <div class="overlay yellow"></div>
+                <img src="http://www.activateconf.com/assets/images/photos/01-t.jpg" alt="Baton Rouge Mayor-President Sharon Broome joined Activate Conference 2018 as a guest speaker." class="img-fluid" />
+            </a>
+        </div>
+        <div class="col-3">
+            <a href="http://www.activateconf.com/assets/images/photos/02.jpg" title="Click to see this photo at a larger size" data-fancybox="gallery" data-caption="Activate Conference attendees eating jambalaya.">
+                <img src="http://www.activateconf.com/assets/images/zoom.svg" alt="" class="overlay-icon" />
+                <div class="overlay red"></div>
+                <img src="http://www.activateconf.com/assets/images/photos/02-t.jpg" alt="Activate Conference attendees eating jambalaya." class="img-fluid" />
+            </a>
+        </div>
+        <div class="col-3">
+            <a href="http://www.activateconf.com/assets/images/photos/03.jpg" title="Click to see this photo at a larger size" data-fancybox="gallery" data-caption="People standing at Activate Conference because attendees outnumber seats.">
+                <img src="http://www.activateconf.com/assets/images/zoom.svg" alt="" class="overlay-icon" />
+                <div class="overlay yellow"></div>
+                <img src="http://www.activateconf.com/assets/images/photos/03-t.jpg" alt="People standing at Activate Conference because attendees outnumber seats." class="img-fluid" />
+            </a>
+        </div>
+        <div class="col-3">
+            <a href="http://www.activateconf.com/assets/images/photos/04.jpg" title="Click to see this photo at a larger size" data-fancybox="gallery" data-caption="Activate Conference attendees waiting to learn which team won the Hackathon.">
+                <img src="http://www.activateconf.com/assets/images/zoom.svg" alt="" class="overlay-icon" />
+                <div class="overlay red"></div>
+                <img src="http://www.activateconf.com/assets/images/photos/04-t.jpg" alt="Activate Conference attendees waiting to learn which team won the Hackathon." class="img-fluid" />
+            </a>
+        </div>
+        <div class="col-3">
+            <a href="http://www.activateconf.com/assets/images/photos/05.jpg" title="Click to see this photo at a larger size" data-fancybox="gallery" data-caption="Smiling people who met at Activate Conference">
+                <img src="http://www.activateconf.com/assets/images/zoom.svg" alt="" class="overlay-icon" />
+                <div class="overlay red"></div>
+                <img src="http://www.activateconf.com/assets/images/photos/05-t.jpg" alt="Smiling people who met at Activate Conference" class="img-fluid" />
+            </a>
+        </div>
+        <div class="col-3">
+            <a href="http://www.activateconf.com/assets/images/photos/06.jpg" title="Click to see this photo at a larger size" data-fancybox="gallery" data-caption="A group of young professionals waiting in line at Activate Conference">
+                <img src="http://www.activateconf.com/assets/images/zoom.svg" alt="" class="overlay-icon" />
+                <div class="overlay yellow"></div>
+                <img src="http://www.activateconf.com/assets/images/photos/06-t.jpg" alt="A group of young professionals waiting in line at Activate Conference." class="img-fluid" />
+            </a>
+        </div>
+        <div class="col-3">
+            <a href="http://www.activateconf.com/assets/images/photos/07.jpg" title="Click to see this photo at a larger size" data-fancybox="gallery" data-caption="View from an Activate Conference sign-in table. The line goes around the side of the building.">
+                <img src="http://www.activateconf.com/assets/images/zoom.svg" alt="" class="overlay-icon" />
+                <div class="overlay red"></div>
+                <img src="http://www.activateconf.com/assets/images/photos/07-t.jpg" alt="View from an Activate Conference sign-in table. The line goes around the side of the building." class="img-fluid" />
+            </a>
+        </div>
+        <div class="col-3">
+            <a href="http://www.activateconf.com/assets/images/photos/08.jpg" title="Click to see this photo at a larger size" data-fancybox="gallery" data-caption="Electronic equipment such as arduino kits laid atop a table at an Activate Conference.">
+                <img src="http://www.activateconf.com/assets/images/zoom.svg" alt="" class="overlay-icon" />
+                <div class="overlay yellow"></div>
+                <img src="http://www.activateconf.com/assets/images/photos/08-t.jpg" alt="Workshop project equipment such as arduino kits laid atop a table at an Activate Conference." class="img-fluid" />
+            </a>
+        </div>
+        <div class="col-3">
+            <a href="http://www.activateconf.com/assets/images/photos/09.jpg" title="Click to see this photo at a larger size" data-fancybox="gallery" data-caption="Activate Conference attendees participating in a technical challenge.">
+                <img src="http://www.activateconf.com/assets/images/zoom.svg" alt="" class="overlay-icon" />
+                <div class="overlay yellow"></div>
+                <img src="http://www.activateconf.com/assets/images/photos/09-t.jpg" alt="Activate Conference attendees participating in a technical challenge." class="img-fluid" />
+            </a>
+        </div>
+        <div class="col-3">
+            <a href="http://www.activateconf.com/assets/images/photos/10.jpg" title="Click to see this photo at a larger size" data-fancybox="gallery" data-caption="Virtual Reality games were a favorite for Activate Conference attendees.">
+                <img src="http://www.activateconf.com/assets/images/zoom.svg" alt="" class="overlay-icon" />
+                <div class="overlay red"></div>
+                <img src="http://www.activateconf.com/assets/images/photos/10-t.jpg" alt="Virtual Reality games were a favorite for Activate Conference attendees." class="img-fluid" />
+            </a>
+        </div>
+        <div class="col-3">
+            <a href="http://www.activateconf.com/assets/images/photos/11.jpg" title="Click to see this photo at a larger size" data-fancybox="gallery" data-caption="Hackathon competitors walking around looking at the other projects, discussing technical topics.">
+                <img src="http://www.activateconf.com/assets/images/zoom.svg" alt="" class="overlay-icon" />
+                <div class="overlay yellow"></div>
+                <img src="http://www.activateconf.com/assets/images/photos/11-t.jpg" alt="Hackathon competitors walking around looking at the other projects, discussing technical topics." class="img-fluid" />
+            </a>
+        </div>
+        <div class="col-3">
+            <a href="http://www.activateconf.com/assets/images/photos/12.jpg" title="Click to see this photo at a larger size" data-fancybox="gallery" data-caption="Judges of the recent Hackathon being shown the code of the winning student project.">
+                <img src="http://www.activateconf.com/assets/images/zoom.svg" alt="" class="overlay-icon" />
+                <div class="overlay red"></div>
+                <img src="http://www.activateconf.com/assets/images/photos/12-t.jpg" alt="Judges of the recent Hackathon being shown the code of the winning student project." class="img-fluid" />
+            </a>
+        </div>
+    </div>
+        </div>
+</section>
+
+{% endblock %}

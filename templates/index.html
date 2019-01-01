@@ -1,0 +1,144 @@
+{#
+ # Homepage template
+ # ---------------
+ #}
+{% set entry = craft.entries.slug('home').first() %}
+{% extends "_layout" %}
+{% set bodyClass = 'home' %}
+
+{% block content %}
+	{% cache %}
+        
+    {% endcache %}
+
+<header class="header mx-md-3">
+	<div class="container ">
+		<div class="row justify-content-center">
+			<div class="col-sm-12 col-md-10 col-lg-8  badge-box">
+				<div class="badge-box">
+					<img class="img-fluid" src="assets/images/logos/header-mast.svg" alt="{{company.company}} a conference for all things interactive">
+					<div class="badge-year">20<br>18</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<section class="section masthead masthead-home background-white py-5" style="background-image: url('{{entry.introImage.first.url}}');">
+	<div class="container">
+		<div class="col-12 col-md-6 col-lg-8">
+			
+			{{entry.introBody}}
+			
+		</div>
+	</div>
+</section>
+
+<section class="section schedule">
+	<div class="mx-md-3 background-red background-img-size-cover background-img-center-center background-repeat-no py-5" style="background-image: url('/assets/images/photos/red-blur.jpg');">
+		<div class="container">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-11 col-md-6 col-lg-5 order-md-2">
+					<div class="mb-4">
+						<p class="text-right text-white my-0">{{company.company}} 2018</p>
+						<h3 class="h3 text-right text-white text-upper my-0">february 22-24</h3>
+						<p class="text-right text-white my-0">@ lousiana tech park <br />baton rouge, la</p>
+					</div>
+				</div>
+				<div class="col-11 col-md-6 col-lg-5 order-md-1">
+					<div class="card card-person background-navy mb-4 p-2">
+						<div class="card-body pb-0">
+							<h3 class="h3 text-orange text-upper">day 1</h3>
+							<h4 class="h4 text-orange text-upper">workshop day</h4>
+							<p class="text-white">A day of workshops for students and professionals. 8 90-minute workshops in 2 rooms. Attend one or many.</p>
+							<p class="text-white mb-5">Time: 12:00 PM - 8:00 PM</p>
+						</div>
+						<div class="card-footer background-navy position-relative">
+							<a href="/workshops" class="d-flex justify-content-center align-items-center arrow-link position-absolute right bottom text-white" title="Go to Workshops">
+								<span class="fa fa-arrow-right"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-11 col-md-6 col-lg-5 order-md-3">
+					<div class="card card-person background-navy mb-4 p-2">
+						<div class="card-body pb-0">
+							<h3 class="h3 text-orange text-upper">day 2</h3>
+							<h4 class="h4 text-orange text-upper">hackathon day</h4>
+							<p class="text-white">The first day of Activate Hackathon. Create teams and create change using Open Data Baton Rouge.</p>
+							<p class="text-white mb-5">Time: 9:00 AM - 7:00 PM</p>
+						</div>
+						<div class="card-footer background-navy position-relative">
+							<a href="/hackathon" class="d-flex justify-content-center align-items-center arrow-link position-absolute right bottom text-white" title="Go to Hackathon">
+								<span class="fa fa-arrow-right"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-11 col-md-6 col-lg-5 order-md-4">
+					<div class="card card-person background-navy mb-4 p-2">
+						<div class="card-body pb-0">
+							<h3 class="h3 text-orange text-upper">day 3</h3>
+							<h4 class="h4 text-orange text-upper">conference day</h4>
+							<p class="text-white">Our main event: Activate Conference now with student and professional tracks. 8 60-minute talks in 2 rooms.</p>
+							<p class="text-white mb-5">Time: 9:00 AM - 6:00 PM</p>
+						</div>
+						<div class="card-footer background-navy position-relative">
+							<a href="/conference" class="d-flex justify-content-center align-items-center arrow-link position-absolute right bottom text-white" title="Go to Conference">
+								<span class="fa fa-arrow-right"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+</section>
+															
+<section class="section">
+	<div class="mx-md-3 background-navy py-5 background-img-size-cover background-img-center-center background-repeat-no" style="background-image: url('/assets/images/photos/blue-blur.jpg');">
+		<div class="container">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-12 col-sm-3">
+					<h3 class="h3 text-orange">2018</h3>
+					<p class="text-white">by the numbers</p>
+				</div>
+				<div class="col-12 col-sm-8 col-md-7">
+					<div class="row justify-content-between align-items-center">
+						<div class="col-6">
+							<p class="d-flex justify-content-start align-items-center text-white">
+								<span class="badge badge-orange text-navy">3</span>
+								<span class="number-label">days</span>
+							</p>
+						</div>
+						<div class="col-6">
+							<p class="d-flex justify-content-start align-items-center text-white">
+								<span class="badge badge-orange text-navy">8</span>
+								<span class="number-label">speakers</span>
+							</p>
+						</div>
+						<div class="col-6">
+							<p class="d-flex justify-content-start align-items-center text-white">
+								<span class="badge badge-orange text-navy">8</span>
+								<span class="number-label">workshops</span>
+							</p>
+						</div>
+						<div class="col-6">
+							<p class="d-flex justify-content-start align-items-center text-white">
+								<span class="badge badge-orange text-navy">2</span>
+								<span class="number-label">tracks</span>
+							</p>
+						</div>
+						<div class="col-6">
+							<p class="d-flex justify-content-start align-items-center text-white">
+								<span class="badge badge-orange text-navy">1</span>
+								<span class="number-label">hackathon</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+{% endblock %}

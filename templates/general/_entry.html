@@ -1,0 +1,32 @@
+{#
+ # General template
+ # ---------------
+ #}
+{% extends "_layout" %}
+{% set bodyClass = 'interior general' %}
+
+{% block content %}
+
+<section class="section masthead masthead-internal background-white py-5" style="background-image: url('{{entry.introImage.first.url}}');">
+	<div class="container">
+		<div class="col-12 col-md-6">
+			<h2 class="display-4 text-teal mb-5"><small class="text-navy text-upper">{{entry.day}}</small><br />{{entry.title}}</h2>
+			<p class="lead">{{entry.dateTime}}</p>
+			
+			{{entry.introBody}}
+		</div>
+	</div>
+</section>
+
+	{% for block in entry.buildingBlocks %}
+		{% include '_buildingBlocks/_' ~ block.type.handle with { block: block, title: entry.title } only %}
+	{% endfor %}
+
+
+{% if entry.slug == "sponsors-partners" %}
+
+{% include "_includes/_sponsor" %}
+
+{% endif %}
+
+{% endblock %}

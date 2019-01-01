@@ -1,0 +1,43 @@
+<section class="section sponsors background-teal py-5 mx-3">
+	<div class="container ">
+
+			
+{% set categories = craft.categories.group('sponsorPartnerTypes') %}
+{% set sponsors = craft.entries.section('sponsorsPartners').limit(null) %}
+
+{% for category in categories.relatedTo(sponsors) %}
+		<div class="row">
+			<div class="col-12">
+				<h3 class="h3 text-center text-white mb-5 mt-5">{{ category.title }}</h3>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			
+			{% for entry in sponsors.relatedTo(category) %}
+			<div class="col-11 col-md-4 col-lg-3 mb-4">
+				<div class="card bg-white p-3 h-100">
+					<a href="{{ entry.websiteUrl }}" class=" h-100 d-flex align-items-center">
+					  <img src="{{entry.logoUpload.first.url}}" class="img-fluid" title="{{ entry.title }}"/>
+					</a>
+				</div>
+			</div>
+			{% endfor %}
+			
+		</div>
+{% endfor %}
+			
+		</div>
+	</div>
+</section>
+<section class="sponsor">
+	<div class="mx-md-3 mb-md-3 background-red background-img-size-cover background-img-center-center background-repeat-no py-5" style="background-image: url('/assets/images/photos/blue-blur-3.jpg');">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center">
+					<p class="mt-0 mb-3 h1 text-white text-upper">Sponsor Activate</p>
+					<a href="http://www.activateconf.com/assets/uploads/general/activate-sponsor-deck-2019.pdf" target="_blank" class="btn btn-lg btn-ghost btn-ghost-white text-yellow text-capitalize py-3 pl-5 pr-5">View Sponsorship Deck</a> <a href="mailto:activateproinc@gmail.com" target="_blank" class="btn btn-lg btn-ghost btn-ghost-white text-yellow text-capitalize py-3 pl-5 pr-5 ml-2">Contact Activate</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
